@@ -14,5 +14,6 @@ public interface StadiumContract {
 
     interface Presenter{
         void getDataListItem();
+        void getSearchStadium(String searchText);
     }
 }
